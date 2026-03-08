@@ -76,7 +76,8 @@ export function RealEstateServices() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-850 p-8 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center border border-gray-100 dark:border-gray-700 hover:border-amber-200 dark:hover:border-amber-600 hover:-translate-y-2"
+              className="group bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 text-center border border-gray-100 hover:border-amber-200 hover:-translate-y-2
+                dark:bg-gray-800/60 dark:backdrop-blur-md dark:border-gray-700 dark:hover:border-amber-600"
             >
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white rounded-xl mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                 <service.icon className="w-8 h-8 text-amber-400" />

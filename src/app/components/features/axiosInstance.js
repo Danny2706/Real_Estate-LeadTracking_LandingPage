@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://real-estate-leadtracking-landingpage.onrender.com/api",
+  baseURL: "https://real-estate-leadtracking-landingpage-2.onrender.com/api",
 });
 
 // Attach token automatically

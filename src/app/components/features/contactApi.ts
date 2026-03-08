@@ -3,7 +3,7 @@ import axios from "axios";
 const API = axios.create({
   baseURL:
     import.meta.env.VITE_API_URL ||
-    "https://real-estate-leadtracking-landingpage.onrender.com/api",
+    "https://real-estate-leadtracking-landingpage-2.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
