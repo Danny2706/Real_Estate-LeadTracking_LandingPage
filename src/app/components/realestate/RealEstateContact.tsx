@@ -67,6 +67,7 @@ export function RealEstateContact() {
       dispatch(resetMessages());
 
       setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
         navigate("/thank-you");
       }, 1200);
     } catch (err) {
